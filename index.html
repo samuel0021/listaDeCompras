@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">   
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Lista de compras</h1>
+        <input type="text" class="txtAddItem" id="txtAddItem" placeholder="Adicione um item">
+        <input type="button" class="botao" id="btnAddItem" value="Adicionar" onclick="adicionarItem()">
+        <label id="lblTeste"></label>
+    </div>
+
+    <div class="setores" id="setores">
+        <h1 class="titulo">Escolha um setor</h1>
+        <div class="rdbs">
+            <input type="radio" class="rdbSetor" name="setor" id="rdbFrutas" value="Frutas">
+            <label class="lblSetor" for="rdbFrutas">Frutas</label>
+            <input type="radio" class="rdbSetor" name="setor" id="rdbLaticinios" value="Laticínios">
+            <label class="lblSetor" for="rdbLaticinios">Laticínios</label>
+            <input type="radio" class="rdbSetor" name="setor" id="rdbCongelados" value="Congelados">
+            <label class="lblSetor" for="rdbCongelados">Congelados</label>
+            <input type="radio" class="rdbSetor" name="setor" id="rdbDoces" value="Doces">
+            <label class="lblSetor" for="rdbDoces">Doces</label>
+        </div>
+        <input type="button" class="botao" id="btnAddSetor" value="Adicionar">
+    </div>
+    <div class="divListaFinal">
+
+        
+    </div>
+    
+    <script src="program.js"></script>
+</body>
+</html>
